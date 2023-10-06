@@ -1,3 +1,4 @@
+console.log("Script is running!");
 function animateElements() {
   // Code to animate elements here
 }

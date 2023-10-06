@@ -14,15 +14,19 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0; /* Reduced padding for header */
 }
 
 header h1 {
     margin: 0;
 }
 
+main {
+    padding: 20px; /* Added padding to the main content */
+}
+
 section {
-    margin: 40px 0;
+    margin: 20px 0; /* Reduced margin for sections */
 }
 
 a {
