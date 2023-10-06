@@ -1,4 +1,3 @@
-console.log("Script is running!");
 function animateElements() {
   // Code to animate elements here
 }
@@ -38,24 +37,27 @@ function fadeInOnScroll() {
 
 window.addEventListener('scroll', fadeInOnScroll);
 
-const sidebarMenu = document.querySelector('.sidebar-menu');
 const sidebarToggleButton = document.querySelector('.sidebar-toggle-button');
 
-sidebarToggleButton.addEventListener('click', () => {
-  sidebarMenu.classList.toggle('expanded');
-});
+if (sidebarToggleButton) {
+  sidebarToggleButton.addEventListener('click', () => {
+    document.querySelector('.sidebar-menu').classList.toggle('expanded');
+  });
+}
 
 const contactForm = document.querySelector('#contact-form');
 
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-  // Validate form fields and display relevant error messages
-  // ...
+    // Validate form fields and display relevant error messages
+    // ...
 
-  // If form is valid, submit the form
-  contactForm.submit();
-});
+    // If form is valid, submit the form
+    contactForm.submit();
+  });
+}
 
 function initialize() {
   // Initialization code here

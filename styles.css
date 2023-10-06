@@ -14,19 +14,15 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0; /* Reduced padding for header */
+    padding: 40px 0;
 }
 
 header h1 {
     margin: 0;
 }
 
-main {
-    padding: 20px; /* Added padding to the main content */
-}
-
 section {
-    margin: 20px 0; /* Reduced margin for sections */
+    margin: 40px 0;
 }
 
 a {
@@ -36,6 +32,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.fade-in-visible {
+    opacity: 1;
 }
 
 footer {
