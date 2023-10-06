@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Your Name] - Data Scientist</title>
-  <link rel="stylesheet" href="style.css">
-
-  <script src="https://unpkg.com/animejs@3.2.1/anime.min.js"></script>
-  <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>[Your Name]</h1>
-    <h2>Data Scientist</h2>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my data science profile! I am a passionate data scientist with expertise in various programming languages and software systems. I specialize in using data to drive insights and make informed decisions. </p>
+        </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a data scientist with [number] years of experience in the field. I have a passion for using data to solve real-world problems. I am skilled in a variety of data science tools and techniques, including Python, R, SQL, and machine learning.</p>
-    <p>I am also an experienced communicator and presenter. I am able to clearly and concisely explain complex technical concepts to a variety of audiences.</p>
-  </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+        </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>R</li>
-      <li>SQL</li>
-      <li>Machine learning</li>
-      <li>Data visualization</li>
-      <li>Communication</li>
-      <li>Presentation</li>
-    </ul>
-  </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      </div>
-  </section>
+    <footer>
+        <p>&copy; 2021 Your Name. All rights reserved.</p>
+    </footer>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you are interested in working with me, please feel free to contact me at [your email address].</p>
-  </section>
-
-  <footer>
-    <p>Copyright &copy; [Your Name] [Current Year]</p>
-  </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
